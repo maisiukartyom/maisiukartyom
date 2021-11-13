@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @maisiukartyom
-- 👀 Here you can use my own projects :-)
-- 🌱 I’m currently learning Java
+- 👋 Hi, I’m a cool programer form Belarus 
+- 😜 You can use my projects on personal purposes :-)
+- 💻 I’m currently learning Frontend and Backend
 - 📫 You can reach me via email maisiukartyom@gmail.com
 
 <!---

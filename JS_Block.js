@@ -3,7 +3,6 @@
 function task1() {
 	const stringCases = myString => myString[0].toUpperCase() + myString.toLowerCase().slice(1)
 
-	document.getElementById('result').defaultValue = ''
 	document.getElementById('result').defaultValue = stringCases(prompt('Введите слово')) 
 }
 //
@@ -23,7 +22,6 @@ function task3(){
 		return arr.filter(word => {if (word.length <= count) return word})
 	}
 
-	document.getElementById('result').defaultValue = ''
 	document.getElementById('result').defaultValue = filterStrings(prompt('Перечислите строки через запятую').split(", "), parseInt(prompt('Введите MAX длинну слова'), 10))
 }
 //

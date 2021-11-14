@@ -1,7 +1,4 @@
-- 👋 Hi, I’m a cool programer from Belarus 
-- 😜 You can use my projects on personal purposes :-)
-- 💻 I’m currently learning Frontend and Backend
-- 📫 You can reach me via email maisiukartyom@gmail.com
+JS_Block оформлен в виде веб-страницы, на которой можно открыть нужное задание.
 
 <!---
 maisiukartyom/maisiukartyom is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

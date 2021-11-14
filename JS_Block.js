@@ -9,6 +9,8 @@ function task1() {
 
 // Задание 2
 function task2() {
+	document.getElementById('result').defaultValue = '' 
+	
 	name = prompt('Как вас зовут?')
 	const greet = name => name === 'Mark' ? alert('Hi, Mark!') : alert(`Hello, ${name}!`)
 

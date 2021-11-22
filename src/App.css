@@ -1,0 +1,24 @@
+.task {
+    background-color: white;
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid
+}
+
+.numb{
+    text-align: center;
+    font-size: 25px
+}
+
+.parity{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 15px;
+    margin: 30px auto
+}
+
+.buttons {
+    width: 100px;
+    margin: 0 auto;
+    display: flex
+}

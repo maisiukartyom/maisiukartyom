@@ -1,59 +1,54 @@
 import React, { useState } from "react";
-
-const task = {
-  backgroundColor: "white",
-  width: "200px",
-  margin: "0 auto",
-  boxShadow: "10px 5px 5px green",
-  border: "1px solid"
-}
+import "./App.css"
 
 function App() {
 
-  let [numb, setnumb] = useState(0)
-  let [parity, setp] = useState('Введено чётное число')
+  const [numb, setNumb] = useState(0)
+  const [parity, setParity] = useState('Введено чётное число')
+  const [color, setColor] = useState('green')
 
-    function increment(){
-      if (numb % 2 !== 0){
-        setp('Введено чётное число')
-        document.getElementById("block").style.boxShadow = "10px 5px 5px green" 
-      }
-      else {
-        setp('Введено нечётное число')
-        document.getElementById("block").style.boxShadow = "10px 5px 5px red"
-      }
+  function increment(){
+    if (numb % 2 !== 0){
+      setParity('Введено чётное число')
+      setColor('green')
+    }
+    else {
+      setParity('Введено нечётное число')
+      setColor('red')
+    }
 
-      setnumb(numb + 1)
+    setNumb(numb + 1)
       
+  }
+
+  function dicrement(){
+
+    if (numb !== 0){
+      setNumb(numb - 1)
+
+    if (numb % 2 !== 0){
+      setParity('Введено чётное число')
+      setColor('green')
     }
-
-    function dicrement(){
-
-      if (numb !== 0){
-        setnumb(numb - 1)
-
-        if (numb % 2 !== 0){
-          setp('Введено чётное число')
-          document.getElementById("block").style.boxShadow = "10px 5px 5px green" 
-        }
-        else {
-          setp('Введено нечётное число')
-          document.getElementById("block").style.boxShadow = "10px 5px 5px red"
-        }
-      }
+    else {
+      setParity('Введено нечётное число')
+      setColor('red')
     }
+    } 
+  
+  }
 
-    function reset(){
-      setnumb(0)
-      setp('Введено чётное число')
-      document.getElementById("block").style.boxShadow = "10px 5px 5px green" 
-    }
+  function reset(){
+    setNumb(0)
+    setParity('Введено чётное число')
+    setColor('green')
+  }
 
   return (
-    <div id="block" style={task}>
-        <h3 style={{textAlign: "center", fontSize: "25px"}}>{numb}</h3>
-        <h3 style={{textAlign: "center", fontFamily: "tahoma", fontSize: "15px", margin: "30px auto"}}>{parity}</h3>
-        <div style={{width: "100px", margin: "0 auto", display: "flex"}}>
+    <div className="task" style={{backgroundColor: color}}>
+        <h3 className="numb">{numb}</h3>
+        <h3 className="parity">{parity}</h3>
+        <div className = "buttons">
           <button onClick={dicrement}>
             -
           </button>
@@ -70,3 +65,4 @@ function App() {
 }
 
 export default App;
+

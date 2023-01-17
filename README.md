@@ -12,13 +12,13 @@
 ```javascript
 const maisiuk = {
     pronouns: "He" | "Him",
-    code: ["Javascript", "C#", "Python", "C"],
+    code: ["Javascript", "C#", "Python"],
     technologies: {
         backEnd: {
-            js: "Node",
+            js: "React", "Node.js",
             c#: ".Net",
         },
-        databases: ["MSSql", "sqlite"],
+        databases: ["MongoDB"],
     },
     architecture: ["Progressive web applications", "Single page applications"],
     currentFocus: "Improving skills and improving portfolio",

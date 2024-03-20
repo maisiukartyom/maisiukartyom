@@ -49,7 +49,7 @@ const maisiuk = {
 
 ## 🗂️ Highlight Projects
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=maisiukartyom&repo=Collections&theme=nord)](https://github.com/maisiukartyom/Collections)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=maisiukartyom&repo=GenerateUsers&theme=nord)](https://github.com/maisiukartyom/GenerateUsers)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=maisiukartyom&repo=visainusa.com&theme=nord)](https://github.com/maisiukartyom/visainusa.com)
 
 <!---
 maisiukartyom/maisiukartyom is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

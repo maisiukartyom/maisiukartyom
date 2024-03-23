@@ -12,7 +12,7 @@
 ```javascript
 const maisiuk = {
     pronouns: "He" | "Him",
-    code: ["Javascript", "C#", "Python"],
+    code: ["Javascript", "Python", "C#"],
     technologies: {
         backEnd: {
             js: "Node.js",
